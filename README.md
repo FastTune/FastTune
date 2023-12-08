@@ -10,8 +10,8 @@
 
 <!-- <img src='./image/web.png'  style="max-width: 100%;" >  -->
 
-| Instrument  |  Surpport  | String  | More |       
-| ------ |  ------ |  ------ |  ------ | ------ | 
+| Instrument  |  Surpport  | String  | More |      
+| ------ |  ------ |  ------ |  ------|
 | Guitar |  ✅|6-string, 4-string, 7-string, 12-string;  |30+ tune-mode; acoustic, electric,  overdriven and etc|
 | Ukulele | ✅ |4-string; | 4+ tune-mode| 
 | Bass|  ✅|4-string, 5-string;| 18+ tune-mode; acoustic, electric, slap and etc | 
