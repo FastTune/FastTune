@@ -7,6 +7,8 @@
  
 
 **FastTune** is an AI tuner for guitar, ukulele, bass, banjo, mandolin, violin and etc.  
+  
+It utilizes the transformer-based tuneNN network model for abstract timbre modeling, supporting tuning for 12+ instrument types.   
 
 
 <!-- <img src='./image/web.png'  style="max-width: 100%;" >  -->
@@ -21,6 +23,15 @@
 | Violin/Viola/Cello |  ✅| 4-string | standard tune-mode | 
 
 The online experience based on web audio and wasm, [See the site here](https://aifasttune.com)
+
+<!-- 
+### Table of Contents
+- [Feature](#feature)
+- [Principle](#principle)
+	- [Classic Algorithm](#classic-algorithm)
+	- [FastTune Architecture](#fasttune-architecture)
+	- [TuneNN](#tunenn)
+- [Dataset](#dataset) -->
 
 ## Feature
 
