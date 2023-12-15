@@ -22,7 +22,7 @@ It utilizes the transformer-based tuneNN network model for abstract timbre model
 | Mandolin |  ✅| 8-string |  standard tune-mode | 
 | Violin/Viola/Cello |  ✅| 4-string | standard tune-mode | 
 
-The online experience based on web audio and wasm, [See the site here](https://aifasttune.com)
+The online experience based on web audio and wasm, [See the site here](https://aifasttune.com)  
 
 <!-- 
 ### Table of Contents
@@ -40,7 +40,7 @@ The online experience based on web audio and wasm, [See the site here](https://a
 - **`smooth `**&nbsp;&nbsp; String twisting tuning, smooth and seamless, accurate and responsive to pitch bending. Continuous tuning, finger movements, fast and authentic, resembling the heartbeat pulse. Every pluck of the fingers provides precise and real-time feedback.   
 
 <p align="center">
-  <a target="_blank" href="https://aifasttune.com"><img alt="open in online experience" src="https://img.shields.io/badge/Open%20In%20Online%20web-blue?logo=v&style=for-the-badge&logoColor=green"></a>
+  <a target="_blank" href="https://aifasttune.com"><img alt="open in online experience" src="https://img.shields.io/badge/Open%20In%20Online%20Tuner-blue?logo=v&style=for-the-badge&logoColor=green"></a>
 </p>
 
 ## Principle
@@ -72,7 +72,9 @@ Considering the characteristics of the above algorithms, for low-frequency pitch
 
 
 ### FastTune Architecture  
-In order to better address the two issues mentioned above, FastTune is designed with three modules, and their specific relationships are as follows:
+  <a target="_blank" href="https://aifasttune.com"><img alt="open in online experience" src="https://img.shields.io/badge/web-Open%20Online%20Tuner-blue?logo=g&style= flat&logoColor=green"></a>  
+  
+In order to better address the two issues mentioned above, FastTune is designed with three modules, and their specific relationships are as follows:     
 
  
 <img src='./image/track.png'   style="width:800px" > 
@@ -101,7 +103,10 @@ The timbre of musical notes is the result of various combinations and transforma
 <img src='./image/time.png'   style="width: 350px" > 
 </p>
 
-Specific feature extraction can be referred to in `featureExtract.py`, and the model structure can be referred to in `tuneNN.py`.
+Specific feature extraction can be referred to in `featureExtract.py`, and the model structure can be referred to in `tuneNN.py`.       
+
+  <a target="_blank" href="https://aifasttune.com"><img alt="open in online experience" src="https://img.shields.io/badge/web-Open%20Online%20Tuner-blue?logo=g&style= flat&logoColor=green"></a>
+  
 
 ## Dataset
 Due to the diversity of instruments and the complexity of timbres, for the guitar instrument, we collected 300+ different brands and price-range guitars, comprising a training and testing dataset of 100GB. The brands include Yamaha, Fender, Gibson, Guild, Taylor, Martin, Enya, Rosen, Mosen, Weibo, Saga, Kama, and more, totaling 50+ brands with different price ranges from 10\$ to 5000\$.
