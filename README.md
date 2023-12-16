@@ -66,8 +66,8 @@ For pitch estimation, there are many related algorithms, mainly based on frequen
 The command line tools:   
 
 ```bash 
+# You need to install the AudiFlux package: pip install audioflux
 $ pitch -p pef -r 32000 -i test.wav -o test.txt
-
 ```
 > `-p`, `--pitch`,  select pitch detection algorithm, include `pef`|`ncf`|`hps`|`lhs`|`cep`|`yin`  
 > `-r`, `--samplate`, select samplerate   
