@@ -67,7 +67,7 @@ The command line tools:
 
 ```bash 
 # You need to install the AudiFlux package: pip install audioflux
-$ pitch -p pef -r 32000 -i test.wav -o test.txt
+$ ./pitch.py -p pef -r 32000 -i test.wav -o test.txt
 ```
 > `-p`, `--pitch`,  select pitch detection algorithm, include `pef`|`ncf`|`hps`|`lhs`|`cep`|`yin`  
 > `-r`, `--samplate`, select samplerate   
