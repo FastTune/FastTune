@@ -43,6 +43,11 @@ The online experience based on web audio and wasm, [See the site here](https://a
   <a target="_blank" href="https://aifasttune.com"><img alt="open in online experience" src="https://img.shields.io/badge/Open%20In%20Online%20Tuner-blue?logo=v&style=for-the-badge&logoColor=green"></a>
 </p>
 
+<p align="center">
+  <img src="image/fasttune.gif" />
+</p>
+
+
 ## Principle
 For pitch tracking across various instruments, there are currently common issues with latency and accuracy.
 
